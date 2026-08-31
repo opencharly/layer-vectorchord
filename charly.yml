@@ -1,7 +1,7 @@
 version: 2026.232.0520
 vectorchord:
     candy:
-        version: 2026.243.0100
+        version: 2026.243.0909
         description: |
             VectorChord vector-search extension installed into the PostgreSQL layer
             VectorChord (vchord) is a PostgreSQL extension for vector similarity
@@ -192,7 +192,7 @@ vectorchord-skill:
             # charly.yml -- used alongside postgresql for Immich smart search
             my-image:
               candy:
-                - '@github.com/opencharly/pod-postgresql:v2026.239.1627'
+                - '@github.com/opencharly/pod-postgresql:vTAG'
                 - vectorchord
                 - immich
             ```
