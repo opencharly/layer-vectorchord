@@ -192,7 +192,7 @@ vectorchord-skill:
             # charly.yml -- used alongside postgresql for Immich smart search
             my-image:
               candy:
-                - '@github.com/opencharly/pod-postgresql:vTAG'
+                - '@github.com/opencharly/pod-postgresql'
                 - vectorchord
                 - immich
             ```
