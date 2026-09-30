@@ -12,7 +12,7 @@ vectorchord:
             the download-and-install ran; CREATE EXTENSION vchord against the live
             server proves it is actually loadable.
         require:
-            - '@github.com/opencharly/pod-postgresql:v2026.247.1304'
+            - '@github.com/opencharly/pod-postgresql:v2026.272.0233'
         distro:
             arch:
                 package:
